@@ -45,22 +45,46 @@ El modelo con mejor rendimiento fue la **Regresión Logística**, con una **accu
 
 ---
 
+## 💻 Streamlit App
+Se desarrolló una **aplicación interactiva en Streamlit** para que cualquier usuario pueda **predecir el tipo de animal introduciendo sus características físicas**:
+
+- Archivo principal: `app.py`  
+- Para ejecutarla localmente:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+La app permite introducir valores como:
+
+- Número de patas
+- Presencia de pelo, plumas o cola
+- Si es acuático o terrestre
+- Si es depredador, venenoso o doméstico
+- Otros atributos físicos
+
+Al hacer clic en **"Predecir"**, la app mostrará el tipo de animal predicho con un emoji representativo.
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
+- Joblib
 - Jupyter Notebook
+- Streamlit
 
 ---
 
 ## 🚀 Conclusiones
 Este proyecto demuestra que, a partir de características físicas simples, es posible **clasificar eficazmente distintos tipos de animales** utilizando modelos de Machine Learning.  
-La Regresión Logística se mostró como una opción eficiente y precisa para este tipo de datos estructurados.
+La Regresión Logística se mostró como una opción eficiente y precisa para este tipo de datos estructurados.  
+Además, la app en Streamlit permite **interacción en tiempo real**, facilitando la visualización del resultado y la experimentación con diferentes combinaciones de características.
 
 ---
 
 ## 👩‍💻 Autora
 **Nerea Gómez**  
 Estudiante de Data Analytics / Data Science de Ironhack
-
