@@ -51,7 +51,6 @@ Se desarrolló una **aplicación interactiva en Streamlit** para que cualquier u
 - Archivo principal: `app.py`  
 - Para ejecutarla localmente:
 
-```bash
 pip install -r requirements.txt
 streamlit run app.py
 
